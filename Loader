@@ -1,0 +1,12 @@
+local ScriptUrl = {
+    [109983668079237] = ""
+}
+
+local gameId = game.GameId
+local url = ScriptUrl[gameId]
+
+if url then
+  loadstring(game:HttpGet(url))()
+  else
+   game:GetService("Players").LocalPlayer:Kick("Game is not supported!")
+end
