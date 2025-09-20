@@ -2,7 +2,7 @@ local Repo = "https://github.com/BountyCraft/BountyHub/raw/main/"
 
 local Fetch = {}
 
-function Fetch.Get(path)
+function Fetch:Get(path)
     local url = Repo .. path
     local ok, response = pcall(game.HttpGet, game, url)
     if not ok then
