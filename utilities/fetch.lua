@@ -1,4 +1,4 @@
-local Repo = "https://github.com/BountyCraft/BountyHub/"
+local Repo = "https://github.com/BountyCraft/BountyHub/raw/main/"
 
 local Fetch = {}
 
